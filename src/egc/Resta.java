@@ -2,9 +2,9 @@ package egc;
 import java.lang.Math;
 public class Resta {
 
-	public static int restar(int xd, int zy,int x, int z,int xx, int zz){
+	private int restarParaQueDeConflicto2(int a, int b,int c){
 		
-		return Math.abs(x-z);
+		return Math.abs(a-b);
 	}
 	public static int restar(int... numeros) {
 		int res = numeros[0];
