@@ -19,7 +19,12 @@ public class TestResta {
 	
 	@Test
 	public void testRestaNegativo(){
-		assertEquals(-4, Resta.restar(0, -4));
+		assertEquals(4, Resta.restar(0, -4));
+	}
+	
+	@Test
+	public void testRestaMuchos(){
+		assertEquals(-3, Resta.restar(20, 4,5,6,7,1));
 	}
 	
 }

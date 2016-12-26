@@ -6,5 +6,13 @@ public class Resta {
 		
 		return Math.abs(x-z);
 	}
+	public static int restar(int... numeros) {
+		int res = numeros[0];
+		
+		for(int i=1; i<numeros.length; i++){
+			res-=numeros[i];
+		}
+		return res;
+	}
 	
 }
