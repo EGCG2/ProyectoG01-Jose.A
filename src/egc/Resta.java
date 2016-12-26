@@ -2,7 +2,7 @@ package egc;
 import java.lang.Math;
 public class Resta {
 
-	public static int restar(int xd, int zy,int x, int z,int xx, int zz){
+	public static int restarConConflicto(int x, int z,int xx, int zz){
 		
 		return Math.abs(x-z);
 	}
